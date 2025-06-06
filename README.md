@@ -62,14 +62,14 @@ cd covid19-prediction
 Install the required Python packages:
 
 `bash`
-`Copy code`
+
 `pip install -r requirements.txt`
 
 ### 3. Add Dataset
 Ensure that your dataset is named:
 
 `text`
-`Copy code`
+
 `COVID DATA.csv`
 It should include the following columns: Serial Number, Country, Total Cases, Total Deaths, Total Recovered, Total Test, Population, Active Cases
 
