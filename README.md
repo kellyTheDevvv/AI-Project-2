@@ -85,6 +85,7 @@ You’ll see model metrics printed in the terminal and a graph displayed.
 The following Python libraries are required to run the project:
 
 `-pandas`
+
 `-numpy`
 
 `-matplotlib`
