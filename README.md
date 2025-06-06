@@ -2,7 +2,7 @@
 
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
 ![Python](https://img.shields.io/badge/python-3.7%2B-blue)
-![Health AI](https://img.shields.io/badge/SDG-3%20Good%20Health%20and%20Well-being-brightgreen)
+
 
 ### 🌍 Overview
 
@@ -55,8 +55,7 @@ A **line chart** is also generated showing actual vs. predicted active cases.
 ### 1. Clone the Repository
 
 git bash
-git clone https://github.com/yourusername/covid19-prediction.git
-cd covid19-prediction
+git clone https://github.com/yourusername/covid19-prediction.git cd covid19-prediction
 
 ### 2. Install Dependencies
 Install the required Python packages:
@@ -71,18 +70,25 @@ Ensure that your dataset is named:
 `text`
 
 `COVID DATA.csv`
+
 It should include the following columns: Serial Number, Country, Total Cases, Total Deaths, Total Recovered, Total Test, Population, Active Cases
 
 ### 4. Run the Script
+
 `bash`
+
 `python covid_prediction.py`
+
 You’ll see model metrics printed in the terminal and a graph displayed.
 
 ## 📦 Requirements
 The following Python libraries are required to run the project:
+
 `-pandas`
 `-numpy`
+
 `-matplotlib`
+
 `-scikit-learn`
 
 ## 📈 Sample Visualization
