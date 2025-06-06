@@ -40,38 +40,74 @@ We used **Linear Regression** from `scikit-learn` to estimate the number of acti
 
 ### 📊 Model Performance
 
-After training, the model outputs:
+After training, the model outputs: 
+- `R² Score: 0.97`
+- `Root Mean Squared Error: 1853.41`
+- `Predicted Active Cases: 25000`
 
-### 📦 Requirements
+
+A **line chart** is also generated showing actual vs. predicted active cases.
+
+---
+
+## 🛠️ How to Use
+
+### 1. Clone the Repository
+
+git bash
+git clone https://github.com/yourusername/covid19-prediction.git
+cd covid19-prediction
+
+### 2. Install Dependencies
+Install the required Python packages:
+
+`bash`
+`Copy code`
+`pip install -r requirements.txt`
+
+### 3. Add Dataset
+Ensure that your dataset is named:
+
+`text`
+`Copy code`
+`COVID DATA.csv`
+It should include the following columns: Serial Number, Country, Total Cases, Total Deaths, Total Recovered, Total Test, Population, Active Cases
+
+### 4. Run the Script
+`bash`
+`python covid_prediction.py`
+You’ll see model metrics printed in the terminal and a graph displayed.
+
+## 📦 Requirements
 The following Python libraries are required to run the project:
--pandas
--numpy
--matplotlib
--scikit-learn
+`-pandas`
+`-numpy`
+`-matplotlib`
+`-scikit-learn`
 
-### 📈 Sample Visualization
+## 📈 Sample Visualization
 A graph is plotted comparing actual and predicted values of active cases using matplotlib:
 
 Blue: Actual Active Cases
 
 Orange: Predicted Active Cases
 
-### 🛡️ Ethical Considerations
+## 🛡️ Ethical Considerations
 ✅ Data Privacy: Dataset is anonymized and does not contain personal identifiers.
 
 ✅ Ethical AI Use: AI serves as a decision-support tool, not a replacement for medical professionals.
 
 ✅ Responsible Development: Model use is transparent, and limitations are acknowledged.
 
-### 📄 License
+## 📄 License
 This project is open-source and available under the MIT License.
 You are free to use, distribute, and modify the code with proper credit.
 
 
-### 🙌 Acknowledgments
+## 🙌 Acknowledgments
 Special thanks to healthcare professionals, data scientists, and open-data providers who made this kind of research possible. Together, we can build tools that contribute to global well-being and a smarter future in healthcare
 
-### 👥 Contributors
+## 👥 Contributors
 This project was collaboratively developed as part of a health-focused AI research initiative:
 
 Mary Njengah – marynjengah2011@gmail.com
