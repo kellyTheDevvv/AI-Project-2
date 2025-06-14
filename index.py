@@ -71,3 +71,12 @@ plt.legend()
 plt.grid(True)
 plt.tight_layout()
 plt.show()
+
+errors = y_test_sorted - y_pred_sorted
+plt.figure(figsize=(12, 6))
+plt.bar(range(len(errors)), errors)
+plt.title("Prediction Errors (Actual - Predicted)")
+plt.xlabel("Sample Index")
+plt.ylabel("Error in Active Cases")
+plt.tight_layout()
+plt.show()
